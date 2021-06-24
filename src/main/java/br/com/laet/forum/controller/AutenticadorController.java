@@ -1,6 +1,7 @@
 package br.com.laet.forum.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -17,6 +18,7 @@ import br.com.laet.forum.controller.form.LoginForm;
 
 @RestController
 @RequestMapping("/auth")
+@Profile("prod")
 public class AutenticadorController {
 
 	@Autowired
