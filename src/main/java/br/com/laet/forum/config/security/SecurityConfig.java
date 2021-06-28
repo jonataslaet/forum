@@ -19,7 +19,7 @@ import br.com.laet.forum.repository.UsuarioRepository;
 
 @EnableWebSecurity
 @Configuration
-@Profile("prod")
+@Profile(value={"prod","test"})
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	
 	@Autowired

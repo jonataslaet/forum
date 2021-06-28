@@ -18,7 +18,7 @@ import br.com.laet.forum.controller.form.LoginForm;
 
 @RestController
 @RequestMapping("/auth")
-@Profile("prod")
+@Profile(value={"prod","test"})
 public class AutenticadorController {
 
 	@Autowired
