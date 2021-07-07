@@ -16,6 +16,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import br.com.laet.forum.repository.UsuarioRepository;
+import br.com.laet.forum.services.AutenticadorService;
+import br.com.laet.forum.services.TokenService;
 
 @EnableWebSecurity
 @Configuration

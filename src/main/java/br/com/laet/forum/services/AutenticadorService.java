@@ -1,4 +1,4 @@
-package br.com.laet.forum.config.security;
+package br.com.laet.forum.services;
 
 import java.util.Optional;
 

@@ -13,6 +13,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import br.com.laet.forum.modelo.Usuario;
 import br.com.laet.forum.repository.UsuarioRepository;
+import br.com.laet.forum.services.TokenService;
 
 public class AutenticacaoViaTokenFilter extends OncePerRequestFilter{
 
